@@ -1,9 +1,13 @@
 import React from 'react';
 
-export default () => {
+import Header from './Header';
+
+export default ({children}) => {
+  // The children prop -- as defined in index.js
     return (
       <div>
-        Hi, I am the app.
+        <Header />
+        { children }
       </div>
     )
 }
