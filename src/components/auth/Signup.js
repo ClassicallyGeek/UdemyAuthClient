@@ -2,9 +2,17 @@ import React, { Component } from 'react';
 import {reduxForm, Field } from 'redux-form';
 
 class Signup extends Component {
+  //making onSumbit an arrow function stops us from having to bind it.
+  onSubmit = (formProps) => {
+    console.log(formProps);
+  }
+
   render() {
+    // pull that handleSubmit function from props- given to us by reduxForm
+    const { handleSubmit } = this.props;
+
     return (
-      <form>
+      <form onSubmit={handleSubmit(this.onSubmit)}>
         <fieldset>
           <label>Email</label>
           <Field
@@ -23,6 +31,7 @@ class Signup extends Component {
             autoComplete="none"
           />
         </fieldset>
+        <button>Sign up</button>
       </form>
     )
   }
