@@ -7,3 +7,5 @@ This gives us the ability to return/dispatch as many actions as we'd like from a
 For instance, we could create a promise and dispatch another action upon its resolve.
 
 * Redux compose helper
+* CORS (Cross Origin Resource Sharing)
+  Pre-flight request is the browser asking the server if a CORS request is acceptable. 
