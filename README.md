@@ -8,4 +8,5 @@ For instance, we could create a promise and dispatch another action upon its res
 
 * Redux compose helper
 * CORS (Cross Origin Resource Sharing)
-  Pre-flight request is the browser asking the server if a CORS request is acceptable. 
+  Pre-flight request is the browser asking the server if a CORS request is acceptable.
+* Persist Login with LocalStorage
