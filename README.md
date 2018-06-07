@@ -1,4 +1,6 @@
 ## Udemy Advanced React/Redux Client Side Auth Project
+For class: "Advanced React and Redux: 2018 Edition"
+https://www.udemy.com/react-redux-tutorial/learn/v4/content
 
 Action Creator -> [Action -> Middleware -> Reducers] facilitated by dispatch function
 
